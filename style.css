@@ -1,0 +1,187 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #EDF2C5;
+      min-height: 100vh;
+      width: 100%;
+      font-family: 'Noto Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1120px;
+      width: 100%;
+      margin: 36px auto 0px auto;
+    }
+
+    .logo {
+      font-family: 'Noto Sans', sans-serif;
+      color: #778A50;
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: 0%;
+      white-space: nowrap;
+    }
+
+    .photo {
+      display: flex;
+      align-items: center;  
+      gap: 12px;
+    }
+
+    .photo img {
+      height: 24px;
+      width: auto;
+      display: block;
+    }
+
+    .line {
+      padding-right: 12px;
+      border-right: 1px solid #778A50;
+    }
+
+    .login, .join {
+      color: #778A50;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      border: 1px solid #778A50;
+      border-radius: 3px;
+      padding: 4px 8px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .nav-bar {
+      background-color: #778A50;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 48px;   
+      max-width: 1120px;
+      width: 100%;
+      margin: 10px auto 0 auto;
+      border-radius: 3px;
+      padding: 12px 30px;
+    }
+
+    .nav-bar a {
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: #EDF2C5;
+      text-decoration: none;
+    }
+
+    .about {
+      white-space: nowrap;
+    }
+
+    .pumpkin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16px;
+    }
+
+    .pumpkin-img {
+      width: 100%;
+      max-width: 1120px;
+      height: auto;
+    }
+
+    .content-article {
+      max-width: 1120px;
+      width: 100%;
+      gap: 16px;
+      margin: 16px auto 40px auto;
+      display: flex;
+    }
+
+    .content-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column; 
+    }
+
+    .content-section h6 {
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      background-color: #778A50;
+      color: #EDF2C5;
+      margin-bottom: 8px;
+      padding: 4px 12px;
+    }
+
+    .content-photo {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex: 1; 
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .content-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+
+    .content p, 
+    .contact-box {
+      background-color: #F7FBDA;
+      flex: 1; 
+      padding-top: 10px;
+      padding-left: 10px;
+      color: #7D7D7D;
+      font-size: 12px;
+      font-family: 'Noto Sans';
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+
+    .contact-box {
+
+      padding-top: 16px;
+      padding-left: 16px;
+ 
+    }
+
+.contact-info {
+  border-top: 1px solid #778A50; /* 👈 在下方區塊頂部畫一條線 */
+  padding-top: 16px;             /* 線跟下方文字的距離 */
+  margin-top: 16px;              /* 線跟上方文字的距離 */
+}
+
+.footer {
+  background-color: #778A50;
+  color: #EDF2C5;
+  text-align: center;
+  padding: 16px 0;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
